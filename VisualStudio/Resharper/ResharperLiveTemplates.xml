@@ -1,0 +1,150 @@
+<TemplatesExport>
+  <Template uid="49960e37-21e0-4709-898c-9effc06e7ff7" shortcut="bof" description="MSpec Because Of" text="Because of = () =&gt; " reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="b960df5c-9db9-4b53-9faa-213689f514c4" shortcut="ecx" description="MSpec Establish Context" text="Establish $context$ = () =&gt; " reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="context" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="12956181-dfac-4ca5-aee0-919d10759a34" shortcut="mgt" description="Moq MockGet" text="= Mock.Get(&#xD;&#xA;        Mocks.OneOf&lt;$END$&gt;());" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="9d2300ba-01de-4dbd-ad12-6ad47016f4fe" shortcut="sbj" description="MSpec Subject" text="[Subject(typeof($Subject$))]" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="Subject" expression="typeName()" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="1c34ab91-b184-4d58-8cb4-ea6d1f3bfb12" shortcut="tin" description="throw if null" text="if ($param$ == null) throw new ArgumentNullException(&quot;$param$&quot;);" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="param" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="19ce46a2-49ec-4006-94ce-707b30c8130a" shortcut="lgr" description="Creates Logger declaration" text="private static readonly Logger Log = LogManager.GetCurrentClassLogger();" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="8c2ce491-41fd-48b0-9b82-32c8102c9f1e" shortcut="stp" description="SetProperty" text="SetProperty(ref _$FieldName$, value, &quot;$PropertyName$&quot;);" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="PropertyName" expression="typeMember()" initialRange="-1" />
+      <Variable name="FieldName" expression="decapitalize(PropertyName)" initialRange="-1" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="e00354df-95a7-463c-bbd2-4eaf96981eab" shortcut="hdr" description="Adds header to file" text="//-----------------------------------------------------------------------&#xD;&#xA;// &lt;copyright file=&quot;$FileName$&quot; company=&quot;Citigroup&quot;&gt;&#xD;&#xA;//     Copyright (c) Citigroup 2010. All rights reserved.&#xD;&#xA;// &lt;/copyright&gt;&#xD;&#xA;//-----------------------------------------------------------------------" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="FileName" expression="getFileName()" initialRange="-1" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="6e59fe75-d091-42da-beb8-6e29000cfc12" shortcut="propa" description="Attached Dependency Property" text="/// &lt;summary&gt;&#xD;&#xA;/// Identifies the $propName$ dependency property.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;public static readonly DependencyProperty $propName$Property =&#xD;&#xA;        DependencyProperty.RegisterAttached(&quot;$propName$&quot;, typeof($propType$), typeof($owningType$));&#xD;&#xA;&#xD;&#xA;/// &lt;summary&gt;&#xD;&#xA;/// Gets the the value of &lt;see cref=&quot;$propName$Property&quot;/&gt;.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;/// &lt;param name=&quot;obj&quot;&gt;The $propName$ object from which to retrieve the value.&lt;/param&gt;&#xD;&#xA;/// &lt;returns&gt;The retrieved value&lt;/returns&gt;&#xD;&#xA;public static $propType$ Get$propName$(DependencyObject obj)&#xD;&#xA;{&#xD;&#xA;	if (obj == null) throw new ArgumentNullException(&quot;obj&quot;);&#xD;&#xA;&#xD;&#xA;    return ($propType$)obj.GetValue($propName$Property);&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;/// &lt;summary&gt;&#xD;&#xA;/// Sets the value of &lt;see cref=&quot;$propName$Property&quot;/&gt;.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;/// &lt;param name=&quot;obj&quot;&gt;The dependency object on which to set the value.&lt;/param&gt;&#xD;&#xA;/// &lt;param name=&quot;value&quot;&gt;The value to set.&lt;/param&gt;&#xD;&#xA;public static void Set$propName$(DependencyObject obj, $propType$ value)&#xD;&#xA;{&#xD;&#xA;    if (obj == null) throw new ArgumentNullException(&quot;obj&quot;);&#xD;&#xA;&#xD;&#xA;	obj.SetValue($propName$Property, value);&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="3.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="propName" expression="" initialRange="2" />
+      <Variable name="owningType" expression="typeName()" initialRange="-1" />
+      <Variable name="propType" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="31c2fe1c-13ba-4958-ba3c-37a5c7c0d067" shortcut="propn" description="INPC Property" text="private $type$ _$fieldName$;&#xD;&#xA;public $type$ $propName$ &#xD;&#xA;{&#xD;&#xA;	get { return _$fieldName$; }&#xD;&#xA;	set { SetProperty(ref _$fieldName$, value, &quot;$propName$&quot;); }&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="3.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="type" expression="suggestVariableType()" initialRange="1" />
+      <Variable name="propName" expression="" initialRange="0" />
+      <Variable name="fieldName" expression="decapitalize(propName)" initialRange="-1" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="14ac195a-dbc3-4d6e-a423-db31d57291c4" shortcut="propd" description="DependencyProperty" text="#region $name$&#xD;&#xA;&#xD;&#xA;/// &lt;summary&gt;&#xD;&#xA;/// Identifies the &lt;see cref=&quot;$name$&quot;/&gt; dependency property.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;public static readonly DependencyProperty $name$Property =&#xD;&#xA;	DependencyProperty.Register(&quot;$name$&quot;, typeof($type$), typeof($ownerType$));&#xD;&#xA;&#xD;&#xA;/// &lt;summary&gt;&#xD;&#xA;/// Gets or sets the $name$.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;public $type$ $name$&#xD;&#xA;{&#xD;&#xA;	get { return ($type$) GetValue($name$Property); }&#xD;&#xA;	set { SetValue($name$Property, value); }&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;#endregion" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="3.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="name" expression="" initialRange="5" />
+      <Variable name="type" expression="" initialRange="1" />
+      <Variable name="ownerType" expression="typeName()" initialRange="-1" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="e8d58df4-85c8-45da-abde-72bd8be1111a" shortcut="propdr" description="Creates a read-only dependency property" text="#region $name$&#xD;&#xA;&#xD;&#xA;private static readonly DependencyPropertyKey $name$PropertyKey =&#xD;&#xA;	DependencyProperty.RegisterReadOnly(&quot;$name$&quot;, typeof($type$), typeof($ownerType$), new PropertyMetadata($defaultValue$));&#xD;&#xA;&#xD;&#xA;/// &lt;summary&gt;&#xD;&#xA;/// Identifies the &lt;see cref=&quot;$name$&quot;/&gt; dependency property.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;public static readonly DependencyProperty $name$Property = $name$PropertyKey.DependencyProperty;&#xD;&#xA;&#xD;&#xA;/// &lt;summary&gt;&#xD;&#xA;/// Gets the $name$.&#xD;&#xA;/// &lt;/summary&gt;&#xD;&#xA;public $type$ $name$&#xD;&#xA;{&#xD;&#xA;	get { return ($type$) GetValue($name$Property); }&#xD;&#xA;	private set { SetValue($name$PropertyKey, value); }&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;#endregion" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="type" expression="" initialRange="1" />
+      <Variable name="name" expression="" initialRange="7" />
+      <Variable name="ownerType" expression="typeName()" initialRange="-1" />
+      <Variable name="defaultValue" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="1c033f96-523b-4653-af62-9da7bf1b926c" shortcut="lgd" description="Log Debug (NLog)" text="Log.Debug(CultureInfo.InvariantCulture, &quot;$END$&quot;);" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="c1ba2167-6ea4-4ecc-a96c-2335807d4d96" shortcut="lgw" description="Log Warn (NLog)" text="Log.Warn(CultureInfo.InvariantCulture, &quot;$END$&quot;);" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="cf1bd33a-d1c7-4ab5-a00f-302869857845" shortcut="lgt" description="Log Trace(NLog)" text="Log.Trace(CultureInfo.InvariantCulture, &quot;$END$&quot;);" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+</TemplatesExport>

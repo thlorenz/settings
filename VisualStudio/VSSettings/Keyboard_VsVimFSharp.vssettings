@@ -1,0 +1,131 @@
+<UserSettings>
+	<ApplicationIdentity version="10.0"/>
+	<ToolsOptions>
+		<ToolsOptionsCategory name="Environment" RegisteredName="Environment"/>
+	</ToolsOptions>
+	<Category name="Database Tools" RegisteredName="Database Tools"/>
+	<Category name="Environment_Group" RegisteredName="Environment_Group">
+		<Category name="Environment_KeyBindings" Category="{F09035F1-80D2-4312-8EC4-4D354A4BCB4C}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_KeyBindings" PackageName="Visual Studio Environment Package">
+			<Version>10.0.0.0</Version>
+			<KeyboardShortcuts>
+				<ScopeDefinitions>
+					<Scope Name="VC Dialog Editor" ID="{543E0C02-8C85-4E43-933A-5EF320E3431F}"/>
+					<Scope Name="Data Generator" ID="{D3936010-2B3A-4B8E-82D1-F4DCE3B5F898}"/>
+					<Scope Name="XML (Text) Editor" ID="{FA3CD31E-987B-443A-9B81-186104E8DAC1}"/>
+					<Scope Name="Text Editor" ID="{8B382828-6202-11D1-8870-0000F87579D2}"/>
+					<Scope Name="Work Item Results View" ID="{7026002D-01F6-44E7-95CF-A896C00DA3F8}"/>
+					<Scope Name="ADO.NET Entity Data Model Designer" ID="{C99AEA30-8E36-4515-B76F-496F5A48A6AA}"/>
+					<Scope Name="Query Designer" ID="{B2C40B32-3A37-4CA9-97B9-FA44248B69FF}"/>
+					<Scope Name="WebBrowser" ID="{E8B06F41-6D01-11D2-AA7D-00C04F990343}"/>
+					<Scope Name="DataSet Editor" ID="{B334A759-F450-40A5-BE2A-65937BCD5415}"/>
+					<Scope Name="F# Interactive" ID="{DEE22B65-9761-4A26-8FB2-759B971D6DFC}"/>
+					<Scope Name="View Designer" ID="{B968E165-98E0-41F0-8FBE-A8ED1D246A90}"/>
+					<Scope Name="Global" ID="{5EFC7975-14BC-11CF-9B2B-00AA00573819}"/>
+					<Scope Name="Class Diagram" ID="{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}"/>
+					<Scope Name="UML Activity Diagram" ID="{950C3878-B510-4BC5-9051-42798A870364}"/>
+					<Scope Name="Work Item Query View" ID="{B6303490-B828-410C-9216-AE727D0E282D}"/>
+					<Scope Name="Team Foundation Build Detail Editor" ID="{86306A97-84F2-4F5A-889B-1318501AEB5F}"/>
+					<Scope Name="CSS Source Editor" ID="{A764E89A-518D-11D2-9A89-00C04F79EFC3}"/>
+					<Scope Name="Database Designer" ID="{CFF78A9B-78A3-45A3-9142-0267AFC261FA}"/>
+					<Scope Name="Work Item Editor" ID="{40A91D9D-8076-4D28-87C5-5AF9F0ACFE0F}"/>
+					<Scope Name="Sequence Diagram" ID="{5028BC9F-844B-4C51-A624-0005945D14AE}"/>
+					<Scope Name="VC String Editor" ID="{58442DA9-10DA-4AA9-A2AF-96E4D481379B}"/>
+					<Scope Name="Settings Designer" ID="{515231AD-C9DC-4AA3-808F-E1B65E72081C}"/>
+					<Scope Name="VisualStudio" ID="{B465B5AD-8799-4507-B90A-EE29ACF36AF9}"/>
+					<Scope Name="Windows Forms Designer" ID="{BA09E2AF-9DF2-4068-B2F0-4C7E5CC19E2F}"/>
+					<Scope Name="VC Accelerator Editor" ID="{EB56D0B5-BEE7-4D0C-8BE6-88A8ED256695}"/>
+					<Scope Name="Report Designer" ID="{CB3675B8-701E-4F56-9167-2714E167FF3F}"/>
+					<Scope Name="Workflow Designer" ID="{D4D9FCBC-B26A-4C41-AB9F-11FD2466829A}"/>
+					<Scope Name="Schema Compare" ID="{CE05A4C2-97F8-465F-9871-8AD72AAE6F20}"/>
+					<Scope Name="Managed Resources Editor" ID="{FEA4DCC9-3645-44CD-92E7-84B55A16465C}"/>
+					<Scope Name="Table Designer" ID="{4194FEE5-6777-419F-A5FC-47A536DF1BDB}"/>
+					<Scope Name="Layer Diagram" ID="{305563E9-FDF9-485B-B73E-D9FEDCC36F2E}"/>
+					<Scope Name="HTML Editor Design View" ID="{CB3FCFEA-03DF-11D1-81D2-00A0C91BBEE3}"/>
+					<Scope Name="HTML Editor Source View" ID="{CB3FCFEB-03DF-11D1-81D2-00A0C91BBEE3}"/>
+					<Scope Name="VC Image Editor" ID="{C0BA70ED-069E-412B-9C06-7442E28A11B9}"/>
+					<Scope Name="XML Schema Designer" ID="{DEE6CEF9-3BCA-449A-82A6-FC757D6956FB}"/>
+					<Scope Name="Transact-SQL Editor" ID="{C5B506FB-13BA-4381-3A48-41275C4CA2B5}"/>
+				</ScopeDefinitions>
+				<DefaultShortcuts/>
+				<ShortcutsScheme/>
+				<UserShortcuts>
+					<RemoveShortcut Command="View.PackageManagerConsole" Scope="Global">Ctrl+W, Ctrl+Z</RemoveShortcut>
+					<RemoveShortcut Command="View.PackageManagerConsole" Scope="Global">Ctrl+W, Z</RemoveShortcut>
+					<RemoveShortcut Command="Edit.SelectCurrentWord" Scope="Text Editor">Ctrl+W</RemoveShortcut>
+					<RemoveShortcut Command="Edit.LineUpExtend" Scope="Text Editor">Shift+Up Arrow</RemoveShortcut>
+					<RemoveShortcut Command="Edit.LineUpExtend" Scope="Windows Forms Designer">Shift+Down Arrow</RemoveShortcut>
+					<RemoveShortcut Command="Edit.LineUpExtend" Scope="Report Designer">Shift+Up Arrow</RemoveShortcut>
+					<RemoveShortcut Command="Edit.SizeControlUpGrid" Scope="Global">Shift+Up Arrow</RemoveShortcut>
+					<RemoveShortcut Command="Edit.LineDownExtend" Scope="Text Editor">Shift+Down Arrow</RemoveShortcut>
+					<RemoveShortcut Command="Edit.LineDownExtend" Scope="Windows Forms Designer">Shift+Up Arrow</RemoveShortcut>
+					<RemoveShortcut Command="Edit.LineDownExtend" Scope="Report Designer">Shift+Down Arrow</RemoveShortcut>
+					<RemoveShortcut Command="Edit.SizeControlDownGrid" Scope="Global">Shift+Down Arrow</RemoveShortcut>
+					<RemoveShortcut Command="Edit.DocumentStart" Scope="Text Editor">Ctrl+Home</RemoveShortcut>
+					<RemoveShortcut Command="Edit.DocumentStart" Scope="Windows Forms Designer">Home</RemoveShortcut>
+					<RemoveShortcut Command="Edit.ViewTop" Scope="Text Editor">Ctrl+PgUp</RemoveShortcut>
+					<RemoveShortcut Command="Window.PreviousTab" Scope="Global">Ctrl+PgUp</RemoveShortcut>
+					<RemoveShortcut Command="Window.PreviousTab" Scope="HTML Editor Design View">Ctrl+PgUp</RemoveShortcut>
+					<RemoveShortcut Command="Window.PreviousTab" Scope="HTML Editor Source View">Ctrl+PgUp</RemoveShortcut>
+					<RemoveShortcut Command="Edit.ViewBottom" Scope="Text Editor">Ctrl+PgDn</RemoveShortcut>
+					<RemoveShortcut Command="Window.NextTab" Scope="Global">Ctrl+PgDn</RemoveShortcut>
+					<RemoveShortcut Command="Edit.MakeLowercase" Scope="Text Editor">Ctrl+U</RemoveShortcut>
+					<RemoveShortcut Command="Edit.GotoBrace" Scope="Text Editor">Ctrl+]</RemoveShortcut>
+					<RemoveShortcut Command="Edit.CharTranspose" Scope="Text Editor">Ctrl+T</RemoveShortcut>
+					<RemoveShortcut Command="Edit.ViewWhiteSpace" Scope="Text Editor">Ctrl+R, Ctrl+W</RemoveShortcut>
+					<RemoveShortcut Command="Refactor.Rename" Scope="Global">Ctrl+R, Ctrl+R</RemoveShortcut>
+					<RemoveShortcut Command="Refactor.ExtractMethod" Scope="Global">Ctrl+R, Ctrl+M</RemoveShortcut>
+					<RemoveShortcut Command="Refactor.EncapsulateField" Scope="Global">Ctrl+R, Ctrl+E</RemoveShortcut>
+					<RemoveShortcut Command="Refactor.ExtractInterface" Scope="Global">Ctrl+R, Ctrl+I</RemoveShortcut>
+					<RemoveShortcut Command="Refactor.RemoveParameters" Scope="Global">Ctrl+R, Ctrl+V</RemoveShortcut>
+					<RemoveShortcut Command="Refactor.ReorderParameters" Scope="Global">Ctrl+R, Ctrl+O</RemoveShortcut>
+					<RemoveShortcut Command="Test.TestResults.RunCheckedTests" Scope="Global">Ctrl+R, F</RemoveShortcut>
+					<RemoveShortcut Command="TestResults.RunAllTestsInTestResults" Scope="Global">Ctrl+R, D</RemoveShortcut>
+					<RemoveShortcut Command="Test.RunTestsInClass" Scope="Global">Ctrl+R, C</RemoveShortcut>
+					<RemoveShortcut Command="Test.DebugTestsInClass" Scope="Global">Ctrl+R, Ctrl+C</RemoveShortcut>
+					<RemoveShortcut Command="Test.RunTestsInNamespace" Scope="Global">Ctrl+R, N</RemoveShortcut>
+					<RemoveShortcut Command="Test.DebugTestsInNamespace" Scope="Global">Ctrl+R, Ctrl+N</RemoveShortcut>
+					<RemoveShortcut Command="Test.RunTestsInCurrentContext" Scope="Global">Ctrl+R, T</RemoveShortcut>
+					<RemoveShortcut Command="Test.RunAllTestsInSolution" Scope="Global">Ctrl+R, A</RemoveShortcut>
+					<RemoveShortcut Command="Test.RunAllImpactedTests" Scope="Global">Ctrl+R, Y</RemoveShortcut>
+					<RemoveShortcut Command="Test.DebugTestsInCurrentContext" Scope="Global">Ctrl+R, Ctrl+T</RemoveShortcut>
+					<RemoveShortcut Command="Test.DebugAllTestsInSolution" Scope="Global">Ctrl+R, Ctrl+A</RemoveShortcut>
+					<RemoveShortcut Command="Test.DebugAllImpactedTests" Scope="Global">Ctrl+R, Ctrl+Y</RemoveShortcut>
+					<RemoveShortcut Command="TestResults.DebugCheckedTests" Scope="Global">Ctrl+R, Ctrl+F</RemoveShortcut>
+					<RemoveShortcut Command="TestResults.DebugAllTestsInTestResults" Scope="Global">Ctrl+R, Ctrl+D</RemoveShortcut>
+					<RemoveShortcut Command="Edit.ListMembers" Scope="Workflow Designer">Ctrl+K, L</RemoveShortcut>
+					<RemoveShortcut Command="Edit.ListMembers" Scope="Workflow Designer">Ctrl+K, Ctrl+L</RemoveShortcut>
+					<RemoveShortcut Command="Edit.ListMembers" Scope="Workflow Designer">Ctrl+J</RemoveShortcut>
+					<RemoveShortcut Command="Edit.ToggleWordWrap" Scope="Text Editor">Ctrl+E, Ctrl+W</RemoveShortcut>
+					<RemoveShortcut Command="Edit.IncrementalSearch" Scope="Text Editor">Ctrl+I</RemoveShortcut>
+					<RemoveShortcut Command="File.Print" Scope="Global">Ctrl+P</RemoveShortcut>
+					<RemoveShortcut Command="Edit.Redo" Scope="Global">Ctrl+Y</RemoveShortcut>
+					<RemoveShortcut Command="Edit.Redo" Scope="Global">Ctrl+Shift+Z</RemoveShortcut>
+					<RemoveShortcut Command="File.NewFile" Scope="Global">Ctrl+N</RemoveShortcut>
+					<RemoveShortcut Command="File.OpenFile" Scope="Global">Ctrl+O</RemoveShortcut>
+					<RemoveShortcut Command="View.NextError" Scope="Global">Ctrl+Shift+F12</RemoveShortcut>
+					<RemoveShortcut Command="EditorContextMenus.CodeWindow.RunSelection" Scope="Global">Ctrl+Q</RemoveShortcut>
+					<RemoveShortcut Command="Debug.BreakatFunction" Scope="Global">Ctrl+B</RemoveShortcut>
+					<RemoveShortcut Command="Edit.GoToFindCombo" Scope="Global">Ctrl+D</RemoveShortcut>
+					<RemoveShortcut Command="Edit.Redo" Scope="Global">Shift+Alt+Bkspce</RemoveShortcut>
+					<RemoveShortcut Command="Edit.ListMembers" Scope="Text Editor">Ctrl+J</RemoveShortcut>
+					<Shortcut Command="Edit.HideSelection" Scope="Text Editor">Ctrl+M, Ctrl+H</Shortcut>
+					<Shortcut Command="Edit.ToggleOutliningExpansion" Scope="Text Editor">Ctrl+M, Ctrl+M</Shortcut>
+					<Shortcut Command="Edit.ToggleAllOutlining" Scope="Text Editor">Ctrl+M, Ctrl+L</Shortcut>
+					<Shortcut Command="Edit.StopOutlining" Scope="Text Editor">Ctrl+M, Ctrl+P</Shortcut>
+					<Shortcut Command="Edit.StopHidingCurrent" Scope="Text Editor">Ctrl+M, Ctrl+U</Shortcut>
+					<Shortcut Command="Edit.CollapsetoDefinitions" Scope="Text Editor">Ctrl+M, Ctrl+O</Shortcut>
+					<Shortcut Command="Edit.CollapseTag" Scope="Text Editor">Ctrl+M, Ctrl+T</Shortcut>
+					<Shortcut Command="Edit.ExpandAllOutlining" Scope="Text Editor">Ctrl+M, Ctrl+X</Shortcut>
+					<Shortcut Command="Edit.CollapseAllOutlining" Scope="Text Editor">Ctrl+M, Ctrl+A</Shortcut>
+					<Shortcut Command="Edit.ExpandCurrentRegion" Scope="Text Editor">Ctrl+M, Ctrl+E</Shortcut>
+					<Shortcut Command="Edit.CollapseCurrentRegion" Scope="Text Editor">Ctrl+M, Ctrl+S</Shortcut>
+					<Shortcut Command="Edit.Find" Scope="Global">Ctrl+F</Shortcut>
+					<Shortcut Command="Edit.Replace" Scope="Global">Ctrl+H</Shortcut>
+					<RemoveShortcut Command="View.ShowSmartTag" Scope="Global">Ctrl+.</RemoveShortcut>
+					<Shortcut Command="Window.NextDocumentWindow" Scope="Global">Ctrl+.</Shortcut>
+					<Shortcut Command="Window.NextDocumentWindow" Scope="Global">Ctrl+W, Ctrl+W</Shortcut>
+				</UserShortcuts>
+			</KeyboardShortcuts>
+		</Category>
+	</Category>
+</UserSettings>
